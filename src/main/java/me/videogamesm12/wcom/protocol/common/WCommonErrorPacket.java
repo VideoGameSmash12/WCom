@@ -41,7 +41,7 @@ public class WCommonErrorPacket extends WPacket
     public enum Error
     {
         UNKNOWN_ERROR,
-        UNSUPPORTED_wnet_VERSION,
+        UNSUPPORTED_W2K_VERSION,
         UNSUPPORTED_SERVER_VERSION,
         NO_PERMISSION,
         INVALID_PARAMETER,
