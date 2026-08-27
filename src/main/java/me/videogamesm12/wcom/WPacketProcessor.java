@@ -15,7 +15,7 @@ public interface WPacketProcessor<T>
 
     void registerServerboundPackets();
 
-    default <P extends WPacket> void register(Class<T> packetClass, Function<T, P> reader, Function<P, T> writer)
+    default <P extends WPacket> void register(Class<P> packetClass, Function<T, P> reader, Function<P, T> writer)
     {
         final WPacket.PacketMeta meta = packetClass.getAnnotation(WPacket.PacketMeta.class);
         final WPacket.PacketMeta.Direction direction = meta.direction();
