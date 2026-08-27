@@ -9,7 +9,7 @@ import net.kyori.adventure.nbt.TagStringIO;
 import java.io.IOException;
 
 @Getter
-@WPacket.PacketMeta(id = {"wnet", "clientbound/configure_acknowledge"},
+@WPacket.PacketMeta(id = {"wcom", "clientbound/configure_acknowledge"},
         direction = WPacket.PacketMeta.Direction.CLIENT_BOUND,
         stage = Stage.CONFIGURATION)
 public class WClientboundConfigureAcknowledgePacket extends WPacket

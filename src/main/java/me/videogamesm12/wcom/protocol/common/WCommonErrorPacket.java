@@ -5,7 +5,7 @@ import me.videogamesm12.wcom.Stage;
 import me.videogamesm12.wcom.WPacket;
 
 @Getter
-@WPacket.PacketMeta(id = {"wnet", "common/error"},
+@WPacket.PacketMeta(id = {"wcom", "common/error"},
         direction = WPacket.PacketMeta.Direction.BOTH,
         stage = Stage.ANY)
 public class WCommonErrorPacket extends WPacket

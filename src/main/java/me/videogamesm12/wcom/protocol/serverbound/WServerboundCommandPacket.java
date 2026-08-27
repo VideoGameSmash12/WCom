@@ -4,7 +4,7 @@ import lombok.Getter;
 import me.videogamesm12.wcom.WPacket;
 
 @Getter
-@WPacket.PacketMeta(id = {"wnet", "serverbound/command"},
+@WPacket.PacketMeta(id = {"wcom", "serverbound/command"},
         direction = WPacket.PacketMeta.Direction.SERVER_BOUND)
 public class WServerboundCommandPacket extends WPacket
 {

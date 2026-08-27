@@ -7,7 +7,7 @@ import me.videogamesm12.wcom.WPacket;
 import java.util.List;
 
 @Getter
-@WPacket.PacketMeta(id = {"wnet", "clientbound/hello"},
+@WPacket.PacketMeta(id = {"wcom", "clientbound/hello"},
         direction = WPacket.PacketMeta.Direction.CLIENT_BOUND,
         stage = Stage.HELLO)
 public class WClientboundHelloPacket extends WPacket

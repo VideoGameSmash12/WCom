@@ -6,7 +6,7 @@ import me.videogamesm12.wcom.WPacket;
 import java.util.UUID;
 
 @Getter
-@WPacket.PacketMeta(id = {"wnet", "clientbound/command_spy"},
+@WPacket.PacketMeta(id = {"wcom", "clientbound/command_spy"},
         direction = WPacket.PacketMeta.Direction.CLIENT_BOUND)
 public class WClientboundCommandSpyPacket extends WPacket
 {

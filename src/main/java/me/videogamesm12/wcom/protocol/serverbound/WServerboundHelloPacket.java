@@ -5,7 +5,7 @@ import me.videogamesm12.wcom.Stage;
 import me.videogamesm12.wcom.WPacket;
 
 @Getter
-@WPacket.PacketMeta(id = {"wnet", "serverbound/hello"},
+@WPacket.PacketMeta(id = {"wcom", "serverbound/hello"},
         direction = WPacket.PacketMeta.Direction.SERVER_BOUND,
         stage = Stage.HELLO)
 public class WServerboundHelloPacket extends WPacket
