@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group = 'me.videogamesm12'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly "net.kyori:adventure-nbt:4.17.0"
+    compileOnly("org.projectlombok:lombok:1.18.46")
+    annotationProcessor("org.projectlombok:lombok:1.18.46")
+}
